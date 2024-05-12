@@ -1,0 +1,92 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  width: 49%;
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+.btn {
+  background-color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  border: #4ECCA3;
+  width: 28%
+}
+
+.btn-roll {
+  background-color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  font-size: 120%;
+  border: #4ECCA3;
+  width: 48%;
+  height: 40%;
+  align-content: center;
+}
+
+
+.nameinput{
+  width:30%
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 60%;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 90%; 
+  }
+  
+  .dice {
+    width: 60%; 
+  }
+  
+  .btn,
+  .btn-roll {
+    width: 80%; 
+  }
+  
+  .nameinput {
+    width: 60%; 
+  }
+  
+  img {
+    width: 80%; 
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 5rem; 
+  }
+  
+  p {
+    font-size: 1.5rem;
+  }
+}
