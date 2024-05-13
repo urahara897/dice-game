@@ -42,8 +42,8 @@ h1 {
 }
 
 
-.nameinput{
-  width:30%
+.nameinput {
+  width: 30%
 }
 
 p {
@@ -56,36 +56,41 @@ img {
   width: 60%;
 }
 
+.hide {
+  font-size: none;
+
+}
+
 
 @media only screen and (max-width: 768px) {
   .container {
-    width: 90%; 
+    width: 90%;
   }
-  
+
   .dice {
-    width: 60%; 
+    width: 60%;
   }
-  
+
   .btn,
   .btn-roll {
-    width: 80%; 
+    width: 80%;
   }
-  
+
   .nameinput {
-    width: 60%; 
+    width: 60%;
   }
-  
+
   img {
-    width: 80%; 
+    width: 80%;
   }
 }
 
 
 @media only screen and (max-width: 480px) {
   h1 {
-    font-size: 5rem; 
+    font-size: 5rem;
   }
-  
+
   p {
     font-size: 1.5rem;
   }
